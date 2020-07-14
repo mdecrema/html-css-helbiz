@@ -41,10 +41,6 @@ body {
     z-index: 1;
 }
 
-.nav-bars {
-    position: relative;
-}
-
 d-block {
     display: inline-block;
     height: 50px;
@@ -68,16 +64,11 @@ d-block {
     font-weight: bold;
 }
 
-#login {
-    text-transform: lowercase;
-    font-size: 20px;
-    color: #fff;
-    line-height: 50px;
-}
-
-.login {
-    padding: 10px 15px;
+.menu-right .login {
+    padding: 0 22px;
     background-color: #000;
+    font-size: 16px;
+    color: #fff;
 }
 
 .h-icon {
