@@ -41,6 +41,10 @@ body {
     z-index: 1;
 }
 
+.nav-bars {
+    position: relative;
+}
+
 d-block {
     display: inline-block;
     height: 50px;
@@ -76,10 +80,18 @@ d-block {
     background-color: #000;
 }
 
-.hamburger-icon {
-  float: right;
-  line-height: 70px;
-  font-size: 1.4rem;
+.h-icon {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    display: none;
+}
+
+.hamb-icon {
+    float: right;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
 }
 
 /*.hero {
@@ -118,6 +130,7 @@ d-block {
 .btn-download {
     float: left;
     background-color: transparent;
+    margin: auto;   
 }
 
 .btn-download img {
@@ -133,6 +146,7 @@ d-block {
     height: 650px;
     background-color: #FAFAFA;
     padding: 90px 10px 40px;
+    overflow: hidden;
 }
 
 .helbizgo h3, .helbizbike h3 {
