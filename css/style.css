@@ -126,13 +126,23 @@ d-block {
 }
 
 .container-veicoli {
-    margin-top: 70px;
+    margin: 70px 0 70px;
 }
 
 .helbizgo, .helbizbike {
-    height: 500px;
+    height: 650px;
     background-color: #FAFAFA;
-    padding: 80px 10px;
+    padding: 90px 10px 40px;
+}
+
+.helbizgo h3, .helbizbike h3 {
+    margin: 40px 0 40px;
+}
+
+.helbizgo a, .helbizbike a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #009CDD;
 }
 
 .nome-veicolo {
@@ -140,7 +150,25 @@ d-block {
 }
 
 .veicoli {
-    height: 200px;
+    height: 350px;
+}
+
+.app {
+    height: 700px;
+}
+
+.app-img {
+    height: 100%;
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 100%;
+}
+
+.smart-mob {
+    height: 450px;
+    margin: 70px 0 70px;
+    background-color: green;
 }
 
 
