@@ -8,6 +8,10 @@ body {
     vertical-align: middle;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .header-top {
     height:  500px;
     background-image: url(../img/hero-bg.jpg);
@@ -89,18 +93,54 @@ d-block {
 
 .slogan {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: red;
+    background-color: transparent;
 }
 
 .slogan h1, .slogan h2 {
     text-align: center;
+    color: #fff;
+}
+
+.slogan h1 {
+    font-size: 50px;
+    margin: 30px 0 30px;
+}
+
+.slogan h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
 }
 
 .btn-download {
-    height: 50px;
     float: left;
+    background-color: transparent;
 }
+
+.btn-download img {
+    height: 50px;
+    margin: auto;
+}
+
+.container-veicoli {
+    margin-top: 70px;
+}
+
+.helbizgo, .helbizbike {
+    height: 500px;
+    background-color: #FAFAFA;
+    padding: 80px 10px;
+}
+
+.nome-veicolo {
+    height: 20px;
+}
+
+.veicoli {
+    height: 200px;
+}
+
 
