@@ -1,11 +1,12 @@
 .logo {
     width: 100px;
-    margin-top: -25px;
+    height: 50px;
+    vertical-align: middle;
 }
 
 .header-top {
     height:  500px;
-    background-image: url(../img/header-img.png);
+    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: 100% 30%;
     background-repeat: no-repeat;
