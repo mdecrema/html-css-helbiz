@@ -1,0 +1,60 @@
+.logo {
+    width: 100px;
+    margin-top: -25px;
+}
+
+.header-top {
+    height:  500px;
+    background-image: url(../img/header-img.png);
+    background-size: cover;
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+}
+
+.header-top > .container {
+    height: 50px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.opacity {
+    height: 500px;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+d-block {
+    display: inline-block;
+    height: 50px;
+}
+
+/*.nav-fl-dx {
+    margin-left: 5%;
+} */
+
+.list-inline li {
+    padding: 0 3%;
+    display: inline-block;
+}
+
+.list-inline li a {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+#login {
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.login {
+    padding: 10px 15px;
+    background-color: #000;
+}
